@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Root
+    second: {fileID: 2100000, guid: e3c0352e015171a4abb54d9d4584a6e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tree
     second: {fileID: 2100000, guid: 9e0ce011dfed7ea4f92955c2887b95ed, type: 2}
   - first:
