@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.549
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1051530377}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.48739272, g: 0.66226685, b: 0.6738974, a: 0.549}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -189,7 +189,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a4174d4783883674eac66b9cf95a8ead, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 69b71725c5548e346a1e8515919cd453, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4174d4783883674eac66b9cf95a8ead, type: 3}
       propertyPath: m_Name
       value: WaterPlane
@@ -200,27 +200,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4174d4783883674eac66b9cf95a8ead, type: 3}
---- !u!114 &367117049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1d046e3917e4d8580903c69758b6558, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  label: Height
-  blendMode: 0
-  opacity: 100
-  passIndex: 0
-  min: 333.8
-  minFalloff: 1
-  max: 2000
-  maxFalloff: 1
 --- !u!1001 &398208734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -628,7 +607,7 @@ MonoBehaviour:
   - enabled: 1
     layer: {fileID: 8574412962073106934, guid: 1c39b2e8fe89ce048973e20a533b0e41, type: 2}
     modifierStack:
-    - {fileID: 367117049}
+    - {fileID: 0}
   autoRepaint: 0
   terrainListeners: []
   bounds:
