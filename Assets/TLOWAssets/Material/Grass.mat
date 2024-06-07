@@ -79,7 +79,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0.541
+    - _AlphaClip: 0.608
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -99,7 +99,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.277
+    - _Smoothness: 0.195
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -110,9 +110,9 @@ Material:
     - _BaseColor: {r: 0.26965898, g: 0.5566038, b: 0, a: 1}
     - _Color: {r: 0.26965898, g: 0.5566038, b: 0, a: 1}
     - _EmissionColor: {r: 0.013266617, g: 0.103773594, b: 0.0014684916, a: 1}
-    - _FarColor: {r: 0.22076586, g: 0.2264151, b: 0.052331794, a: 0}
-    - _NearColor: {r: 0.12938006, g: 0.2264151, b: 0.056603774, a: 1}
-    - _NearForRange: {r: 10, g: 25, b: 0, a: 0}
+    - _FarColor: {r: 0, g: 0.254717, b: 0.018531656, a: 0}
+    - _NearColor: {r: 0.21568629, g: 0.3529412, b: 0.1137255, a: 1}
+    - _NearForRange: {r: 10.56, g: 25, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &901563949863517427
