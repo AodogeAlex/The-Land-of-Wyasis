@@ -87,25 +87,31 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Divide: 8.05
+    - _Divide: 4.24
+    - _Divide2Foam: 10
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _InnerThreshold: 0.835
+    - _Metalic: 0.34
     - _Metallic: 0
+    - _NoiseScale: 1
     - _OcclusionStrength: 1
+    - _OuterThreshold: 0.979
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Refrection: 0.262
+    - _Smoothness: -2.45
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 2
+    - _Speed: 10
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaterScale: 0.128
+    - _WaterScale: 0.174
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -113,7 +119,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _WaterColor: {r: 0.6367924, g: 1, b: 0.8767689, a: 1}
+    - _WaterColor: {r: 0.37624598, g: 0.8962264, b: 0.77273095, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1839752547408445084
 MonoBehaviour:
