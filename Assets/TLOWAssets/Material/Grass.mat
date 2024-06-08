@@ -13,7 +13,7 @@ Material:
   m_InvalidKeywords:
   - _ALPHATEST_ON
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -65,6 +65,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TerrainColor:
+        m_Texture: {fileID: 8400000, guid: 103cf461ce0742745921c84c0666ae15, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -79,7 +87,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0.608
+    - _AlphaClip: 0.834
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -93,27 +101,37 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HeightBlend: 1.9
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.195
+    - _Smoothness: 0.297
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _TerrainOffset: 0
+    - _TerrainSize: 6000
+    - _WIndNoiseSpeed: 1
+    - _WindHeight: 0.09
+    - _WindIntensity: 0.2
+    - _WindNoiseScale: 5
+    - _WindSpeed: 0.1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.26965898, g: 0.5566038, b: 0, a: 1}
+    - _ButtonColor: {r: 0.021982905, g: 0.24528301, b: 0.047550403, a: 0}
     - _Color: {r: 0.26965898, g: 0.5566038, b: 0, a: 1}
     - _EmissionColor: {r: 0.013266617, g: 0.103773594, b: 0.0014684916, a: 1}
     - _FarColor: {r: 0, g: 0.254717, b: 0.018531656, a: 0}
-    - _NearColor: {r: 0.21568629, g: 0.3529412, b: 0.1137255, a: 1}
+    - _NearColor: {r: 0.123671375, g: 0.3301887, b: 0.0015574975, a: 1}
     - _NearForRange: {r: 10.56, g: 25, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &901563949863517427
 MonoBehaviour:

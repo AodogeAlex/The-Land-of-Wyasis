@@ -47,9 +47,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ButtonBrightness: 0.7
+    - _ButtonBrightness: 1
     - _ButtonStrength: 5
-    - _Erosion: 0.897
+    - _Erosion: 0.817
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleAmount: 3.16
@@ -58,6 +58,6 @@ Material:
     - _VoronoiOffsetAmount: 1
     - _VoronoiSpeed: 2
     m_Colors:
-    - _RippleColor: {r: 32.28968, g: 220.26176, b: 206.42332, a: 0}
+    - _RippleColor: {r: 64.57936, g: 440.52353, b: 412.84665, a: 0}
     - _RippleSpeed: {r: 0, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
